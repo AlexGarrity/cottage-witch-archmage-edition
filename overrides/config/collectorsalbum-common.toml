@@ -1,0 +1,13 @@
+"Persist Album Through Death" = true
+#This will allow cards to be dropped even when not all cards are turned in package
+"Packages require turning of all cards" = false
+
+["Mob Drop Chances"]
+	"No Drop Weight" = 5700
+	"Common Drop Weight" = 480
+	"Uncommon Drop Weight" = 320
+	"Rare Drop Weight" = 230
+	"Epic Drop Weight" = 145
+	"Legendary Drop Weight" = 90
+	"Mythical Drop Weight" = 70
+

@@ -1,0 +1,12 @@
+{
+	"type": "mysticalchemy:potion_ingredient",
+	"item": "quark:crab_shell",
+	"minHeat": 175,
+	"maxHeat": 200,
+	"effects": [
+		{
+			"effect": "quark:resilience",
+			"strength": 0.5
+		}
+	]
+}

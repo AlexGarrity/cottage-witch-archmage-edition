@@ -1,0 +1,22 @@
+
+[attributes_tooltip]
+	#Use the pre-1.9 renderer for attributes on item tooltips.
+	old_attributes_style = true
+	#Render armor attributes with green text instead of blue one and include the entity's base armor value, just like with tools and weapons.
+	#Does not apply when old style attributes renderer is used.
+	special_armor_attributes = true
+	#Remove all information regarding attributes from item tooltips.
+	remove_all_attributes = false
+
+[legacy_animations]
+	#Use the much simpler third-person pose when blocking with a sword from Minecaft 1.8 instead of the default one from before that.
+	simple_blocking_pose = false
+	#Improved arm swing animation to emphasize the rhythm of the attacks from combat test snapshots.
+	alternative_swing_animation = false
+	#Lost hearts no longer flash when disappearing, so it is easier to see how much health you currently have.
+	disable_flashing_hearts = false
+	#Eye height changes instantly without any interpolation. Affects mainly sneaking and swimming.
+	instant_eye_height_change = false
+	#Allows block hitting, bow and food punching to render properly (meaning attacking and then using the item directly afterwards). The hitting animation is no longer consumed as in vanilla.
+	full_interact_animations = true
+

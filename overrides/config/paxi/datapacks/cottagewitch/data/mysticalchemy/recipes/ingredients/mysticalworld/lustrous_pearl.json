@@ -1,0 +1,18 @@
+{
+	"type": "mysticalchemy:potion_ingredient",
+	"item": "mysticalworld:lustrous_pearl",
+	"minHeat": 175,
+	"maxHeat": 200,
+	"effects": [
+		{
+			"effect": "minecraft:glowing",
+			"strength": 0.25
+		},
+        {
+			"effect": "minecraft:water_breathing",
+			"strength": 0.5
+		}
+	]
+}
+
+

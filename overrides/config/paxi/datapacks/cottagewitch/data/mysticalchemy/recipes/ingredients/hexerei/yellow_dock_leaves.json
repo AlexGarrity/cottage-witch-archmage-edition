@@ -1,0 +1,16 @@
+{
+	"type": "mysticalchemy:potion_ingredient",
+	"item": "hexerei:yellow_dock_leaves",
+	"minHeat": 175,
+	"maxHeat": 200,
+	"effects": [
+		{
+			"effect": "minecraft:luck",
+			"strength": 0.5
+		},
+		{
+			"effect": "minecraft:absorption",
+			"strength": 0.5
+		}
+	]
+}

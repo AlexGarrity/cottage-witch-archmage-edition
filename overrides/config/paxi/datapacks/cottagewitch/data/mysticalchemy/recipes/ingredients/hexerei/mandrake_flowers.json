@@ -1,0 +1,16 @@
+{
+	"type": "mysticalchemy:potion_ingredient",
+	"item": "hexerei:mandrake_flowers",
+	"minHeat": 175,
+	"maxHeat": 200,
+	"effects": [
+		{
+			"effect": "wildbackport:darkness",
+			"strength": 0.25
+		},
+		{
+			"effect": "minecraft:levitation",
+			"strength": 0.5
+		}
+	]
+}

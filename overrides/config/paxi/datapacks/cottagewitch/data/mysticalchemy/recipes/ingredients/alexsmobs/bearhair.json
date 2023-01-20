@@ -1,0 +1,16 @@
+{
+	"type": "mysticalchemy:potion_ingredient",
+	"item": "alexsmobs:bear_fur",
+	"minHeat": 175,
+	"maxHeat": 200,
+	"effects": [
+		{
+			"effect": "alexsmobs:knockback_resistance",
+			"strength": 0.5
+		},
+		{
+			"effect": "minecraft:strength",
+			"strength": 0.25
+		}
+	]
+}

@@ -1,0 +1,80 @@
+{
+  "biomes": [
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": true,
+        "value": "overworld"
+      },
+      {
+        "type": "BIOME_CATEGORY",
+        "negate": true,
+        "value": "desert"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": true,
+        "value": "overworld"
+      },
+      {
+        "type": "BIOME_DICT",
+        "negate": true,
+        "value": "hot"
+      },
+      {
+        "type": "BIOME_DICT",
+        "negate": true,
+        "value": "dry"
+      },
+      {
+        "type": "BIOME_DICT",
+        "negate": true,
+        "value": "sandy"
+      }
+    ],
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": true,
+        "value": "terralith:ancient_sands"
+      }
+    ],
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": true,
+        "value": "terralith:desert_canyon"
+      }
+    ],
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": true,
+        "value": "terralith:desert_oasis"
+      }
+    ],
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": true,
+        "value": "terralith:desert_spires"
+      }
+    ],
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": true,
+        "value": "terralith:sandstone_valley"
+      }
+    ],
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": true,
+        "value": "terralith:red_oasis"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,12 @@
+{
+	"type": "mysticalchemy:potion_ingredient",
+	"item": "hexerei:dried_belladonna_flowers",
+	"minHeat": 175,
+	"maxHeat": 200,
+	"effects": [
+		{
+			"effect": "minecraft:weakness",
+			"strength": -0.5
+		}
+	]
+}

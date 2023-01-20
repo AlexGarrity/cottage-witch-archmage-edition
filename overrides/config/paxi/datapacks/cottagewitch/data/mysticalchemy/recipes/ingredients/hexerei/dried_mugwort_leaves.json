@@ -1,0 +1,12 @@
+{
+	"type": "mysticalchemy:potion_ingredient",
+	"item": "hexerei:dried_mugwort_leaves",
+	"minHeat": 175,
+	"maxHeat": 200,
+	"effects": [
+        {
+			"effect": "minecraft:mining_fatigue",
+			"strength": -0.5
+		}
+	]
+}

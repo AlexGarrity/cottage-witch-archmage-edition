@@ -1,0 +1,12 @@
+{
+	"type": "mysticalchemy:potion_ingredient",
+	"item": "hexerei:dried_yellow_dock_leaves",
+	"minHeat": 175,
+	"maxHeat": 200,
+	"effects": [
+		{
+			"effect": "minecraft:nausea",
+			"strength": -0.5
+		}
+	]
+}

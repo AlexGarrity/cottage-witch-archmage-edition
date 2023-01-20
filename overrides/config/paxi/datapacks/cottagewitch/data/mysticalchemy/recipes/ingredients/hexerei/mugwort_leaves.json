@@ -1,0 +1,16 @@
+{
+	"type": "mysticalchemy:potion_ingredient",
+	"item": "hexerei:mugwort_leaves",
+	"minHeat": 175,
+	"maxHeat": 200,
+	"effects": [
+		{
+			"effect": "farmersrespite:caffeinated",
+			"strength": 0.5
+		},
+		{
+			"effect": "minecraft:night_vision",
+			"strength": 0.25
+		}
+	]
+}

@@ -1,0 +1,16 @@
+{
+	"type": "mysticalchemy:potion_ingredient",
+	"item": "alexsmobs:gazelle_horn",
+	"minHeat": 175,
+	"maxHeat": 200,
+	"effects": [
+		{
+			"effect": "alexsmobs:speed_iii",
+			"strength": 0.5
+		},
+		{
+			"effect": "minecraft:leaping",
+			"strength": 0.5
+		}
+	]
+}

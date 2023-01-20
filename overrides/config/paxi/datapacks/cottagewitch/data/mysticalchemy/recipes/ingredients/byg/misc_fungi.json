@@ -1,0 +1,14 @@
+{
+	"type": "mysticalchemy:potion_ingredient",
+	"tag": "mysticalchemy:any_fungi",
+	"effects": [
+		{
+			"effect": "minecraft:fire_resistance",
+			"strength": 0.5
+		},
+		{
+			"effect": "minecraft:poison",
+			"strength": 0.5
+		}
+	]
+}

@@ -1,0 +1,614 @@
+{
+	id: "215B9FDE1DF98E61"
+	group: "1E0017DE6773EF00"
+	order_index: 2
+	filename: "fishing"
+	title: "Fishing"
+	icon: {
+		id: "aquaculture:gold_fishing_rod"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Upgraded Fishing Rod"
+			x: -1.5d
+			y: -1.0d
+			shape: "rsquare"
+			description: [
+				"While you can still fish with a plain old &bFishing Rod&r, you can get much better results by crafting an advanced version, such as an &bIron&r, &bGold&r, or &bDiamond Fishing Rod&r."
+				"At first glance, they don't seem all that different, but &dobtain a Tackle Box&r and you'll get more perspective on how much better these &bFishing Rods&r can be."
+				"They are &aalso enchantable&r."
+			]
+			size: 2.0d
+			id: "2E6FAEB4552A257B"
+			tasks: [{
+				id: "5DED5DFBE97C0A2A"
+				type: "item"
+				title: "Craft one of 3 Rods"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "crafttweaker:goodrods"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "67A8680C53A6D2B7"
+					type: "item"
+					item: "minecraft:iron_block"
+				}
+				{
+					id: "2A5B70D54D711FA7"
+					type: "item"
+					item: "minecraft:kelp"
+					count: 10
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -3.5d
+			description: [
+				"The &bTackle Box&r allows you to modify your new &bFishing Rod&r. Simply &6place the rod in the upper right slot&r, and you can now add a &bHook&r, some &bBait&r, a &bBobber&r, and &bFishing Line&r. These items will determine the performance of your Fishing Rod."
+				"The &bBobbers&r and &bFishing Line&r can be colored, and are &acosmetic changes only&r."
+				"&bBait&r can either be caught (Minnows, Leeches) or made (Worms). Bait will draw more fish to your line! It has durability, but can be &aEnchanted&r to make it sturdier."
+			]
+			dependencies: ["2E6FAEB4552A257B"]
+			id: "5544F981783FABA9"
+			tasks: [{
+				id: "3F10F64764936A96"
+				type: "item"
+				item: "aquaculture:tackle_box"
+			}]
+			rewards: [
+				{
+					id: "70D34384DB4E06F3"
+					type: "item"
+					item: {
+						id: "aquaculture:leech"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2A460775027A4B9B"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 6941837675484043489L
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 2.0d
+			shape: "hexagon"
+			description: ["The ultimate rod! The &bNeptunium Rod&r has more durability and is more enchantable than any other rod."]
+			dependencies: ["2E6FAEB4552A257B"]
+			id: "77E80272F54A55C7"
+			tasks: [{
+				id: "7D9CAF40DB5B8CC5"
+				type: "item"
+				item: {
+					id: "aquaculture:neptunium_fishing_rod"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: -5.5d
+			description: [
+				"The &bWorm Farm&r gives you easy access to the most basic fishing bait. It works almost identically to a &bCompost Bin&r (because it is). &6Fill it with organic material&r to create compost for your &bWorms&r to live in."
+				"Once you have enough compost, &6right click with an empty hand&r to dig out some &bWorms&r!"
+				"Also, in a delightful twist, you &acan Enchant your Worms&r to give them extra durability, and even &aMending&r."
+			]
+			dependencies: ["5544F981783FABA9"]
+			id: "72BDF4C871B7F967"
+			tasks: [
+				{
+					id: "13F7E8F859FBC22B"
+					type: "item"
+					item: "aquaculture:worm_farm"
+				}
+				{
+					id: "23A7E78E69DFEC74"
+					type: "item"
+					item: {
+						id: "aquaculture:worm"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "74F244609820ED9C"
+					type: "item"
+					item: "aquaculture:lockbox"
+				}
+				{
+					id: "27A2FD665A9C1B36"
+					type: "item"
+					item: {
+						id: "minecraft:player_head"
+						Count: 1b
+						tag: {
+							display: {
+								Name: "{\"text\":\"Bucket Of Worms\"}"
+							}
+							SkullOwner: {
+								Id: [I;
+									252518891
+									-439532983
+									-1228136753
+									1868595290
+								]
+								Properties: {
+									textures: [{
+										Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2EyNTczOTZmODlhM2YyM2RjNzA1OTUxZWJiMzM5ZmQ3YzY2OTA1OTJkZjc1NWVmYzQ4YjBkODEyMjllMDg0ZSJ9fX0="
+									}]
+								}
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Fish up Boxes"
+			icon: "aquaculture:treasure_chest"
+			x: -4.5d
+			y: 0.5d
+			shape: "hexagon"
+			subtitle: "Ain't just fish down there"
+			description: [
+				"You can reel in more than just aquatic creatures. Sometimes, you'll catch &bitems&r - these can be fun, like &bMessages in a Bottle&r, or disappointing, like &bDriftwood&r."
+				"Three of these are loot containers. The &bBox&r is likely to contain &alittle of value&r - rocks, gravel, and so on."
+				"The &bLockbox&r may contain ores or nuggets or other &aslightly valuable things&r."
+				"The &bTreasure Chest&r can contain things like &agreater ores or gems&r."
+				"There may be even greater, rarer treasures to be found!"
+			]
+			dependencies: ["2E6FAEB4552A257B"]
+			id: "18FA7893C0E9D5C7"
+			tasks: [
+				{
+					id: "481C626F8F8A16B8"
+					type: "item"
+					item: "aquaculture:box"
+				}
+				{
+					id: "59B6B85723A96850"
+					type: "item"
+					item: "aquaculture:lockbox"
+				}
+				{
+					id: "1F19FD3036D922DA"
+					type: "item"
+					item: "aquaculture:treasure_chest"
+				}
+			]
+			rewards: [{
+				id: "057E2189D627D5BF"
+				type: "item"
+				item: "aquaculture:neptunium_ingot"
+			}]
+		}
+		{
+			title: "Make an Iron Hook"
+			x: 0.5d
+			y: -5.0d
+			description: ["To fish properly, you'll need a &bHook&r. The Iron Hook grants &aDurability&r to your rod. By default, there is a 20% chance not to use durability."]
+			dependencies: ["5544F981783FABA9"]
+			id: "714C1036FDC2B1DA"
+			tasks: [{
+				id: "2BC3F347BBC4D177"
+				type: "item"
+				item: "aquaculture:iron_hook"
+			}]
+			rewards: [
+				{
+					id: "43D80124B8AF1657"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 7049021818423122779L
+				}
+				{
+					id: "0DF6736585605085"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1279979498352596350L
+				}
+			]
+		}
+		{
+			title: "Craft a Utility Hook"
+			x: -0.5d
+			y: -7.0d
+			shape: "hexagon"
+			description: [
+				"Different &bHooks&r give different effects. Some are pure upgrades, but these will &agrant other effects&r!"
+				"&bHeavy Hook&r: Has a shorter cast range than other hooks."
+				"&bRedstone Hook&r: Gives you longer to reel in a fish, helpful if you have difficulty reacting quickly."
+				"&bNote Hook&r: Plays a note when a fish is approaching. Useful if you're not paying full attention, or have particles disabled."
+				"&bLight Hook&r: Allows you to cast farther."
+			]
+			dependencies: ["714C1036FDC2B1DA"]
+			id: "604C91E68CB439FA"
+			tasks: [{
+				id: "67B8DBA7AB949525"
+				type: "item"
+				title: "Any #crafttweaker:nichehooks"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "crafttweaker:nichehooks"
+					}
+				}
+			}]
+			rewards: [{
+				id: "23DD79E474C482F5"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8808494820591225409L
+			}]
+		}
+		{
+			x: 5.0d
+			y: -5.0d
+			shape: "hexagon"
+			description: ["Are you drowning in &bNether Stars&r? Sure, we all are. Make this hook and get a bonus to durability and luck!"]
+			dependencies: ["2F669449AEF5A729"]
+			id: "56F3F4C47224EF2F"
+			tasks: [{
+				id: "78ACDAB68F4EB44C"
+				type: "item"
+				item: "aquaculture:nether_star_hook"
+			}]
+			rewards: [{
+				id: "2998395B70170017"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 5161092699925703455L
+			}]
+		}
+		{
+			title: "Upgrade your Hook"
+			x: 2.5d
+			y: -6.0d
+			description: [
+				"Iron Hook not cutting it anymore? &aUpgrade your hook&r to one of these!"
+				"&bGold Hook&r: Increases luck when fishing."
+				"&bDouble Hook&r: Gives a chance to catch 2 things!"
+				"&bDiamond Hook&r: Increased chance to not use durability when fishing."
+			]
+			dependencies: ["714C1036FDC2B1DA"]
+			id: "2F669449AEF5A729"
+			tasks: [{
+				id: "72EBD59A4F2B0247"
+				type: "item"
+				title: "Any #crafttweaker:goodhooks"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "crafttweaker:goodhooks"
+					}
+				}
+			}]
+			rewards: [{
+				id: "6886CE7FD8DE9E9F"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8808494820591225409L
+			}]
+		}
+		{
+			title: "Fillet Your Fish"
+			x: -4.5d
+			y: -1.0d
+			description: ["You can obtain &bFish Fillets&r by &6crafting them together with a &bKnife&r! The amount of Fillets you get is dependent on the size of the fish."]
+			dependencies: ["2E6FAEB4552A257B"]
+			id: "4A6DF1F2F895846B"
+			tasks: [{
+				id: "052AA3E9D880CA8E"
+				type: "item"
+				item: "aquaculture:fish_fillet_raw"
+			}]
+			rewards: [
+				{
+					id: "4B2DF72E4A6747B0"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 6941837675484043489L
+				}
+				{
+					id: "397C10AEB98816B6"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1279979498352596350L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 1.5d
+			shape: "hexagon"
+			description: ["Although you cannot &amount&r the &bGoldfish&r, you can extract gold from it! Although, honestly, I'd probably just put it in an item frame."]
+			dependencies: ["2E6FAEB4552A257B"]
+			id: "1F301E62B2926EDF"
+			tasks: [{
+				id: "102531242633BA53"
+				type: "item"
+				item: "aquaculture:goldfish"
+			}]
+			rewards: [
+				{
+					id: "5E27986D9D8EB20D"
+					type: "item"
+					item: "minecraft:glow_item_frame"
+				}
+				{
+					id: "59D44FAA28ABC49E"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 1279979498352596350L
+				}
+			]
+		}
+		{
+			title: "Customize Your Rod"
+			x: -3.5d
+			y: -3.0d
+			shape: "hexagon"
+			description: ["You can craft a &bBobber&r and &bFishing Line&r to customize your &bFishing Rod&r! These can be dyed any color, and are a cosmetic only change."]
+			dependencies: ["2E6FAEB4552A257B"]
+			id: "074D2A262751206F"
+			tasks: [
+				{
+					id: "7BBB19FF2CE4DF93"
+					type: "item"
+					item: "aquaculture:bobber"
+				}
+				{
+					id: "6DF250618152F4AC"
+					type: "item"
+					item: "aquaculture:fishing_line"
+				}
+			]
+			rewards: [{
+				id: "492D607E65BE881B"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 987967038148964353L
+			}]
+		}
+		{
+			x: 1.5d
+			y: -2.0d
+			description: ["Lucky you, you found a &bMessage in a Bottle&r! What does it say?"]
+			dependencies: ["2E6FAEB4552A257B"]
+			id: "12A7FEE9F7C6733D"
+			tasks: [{
+				id: "38B0C645AE352EE5"
+				type: "item"
+				item: "aquaculture:message_in_a_bottle"
+			}]
+			rewards: [
+				{
+					id: "037153992D73F33B"
+					type: "item"
+					item: {
+						id: "snailmail:envelope_open"
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								Size: 28
+								Items: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "5A49BDEF44F744E8"
+					type: "item"
+					item: "snailmail:stamp"
+				}
+				{
+					id: "32F7911B7A7E60C8"
+					type: "item"
+					item: "minecraft:writable_book"
+				}
+			]
+		}
+		{
+			title: "Catch a Variety of Fish"
+			x: 1.0d
+			y: 0.0d
+			subtitle: "I wanna be the very best"
+			description: [
+				"Now that you've got your new fishing rod, try your hand at catching these fish!"
+				"&bTuna&r can be found in Saltwater."
+				"&bFrogs&r can be found in Swamps."
+				"&bShrooma&r can be found near Mushroom Islands."
+				"&bCapitaine&r can be found in Arid biomes."
+				"&bPacific Halibut&r can be found in arctic ocean biomes."
+				"&bArapaima&r can be found in Jungles."
+				"&bMuskellunge&r can be found in Freshwater."
+			]
+			dependencies: ["2E6FAEB4552A257B"]
+			id: "0C9CEAF0029185A2"
+			tasks: [
+				{
+					id: "3DD26D611F2D68D1"
+					type: "item"
+					item: "aquaculture:tuna"
+				}
+				{
+					id: "49A18DF193627EBD"
+					type: "item"
+					item: "aquaculture:frog"
+				}
+				{
+					id: "7A9E719654105CF6"
+					type: "item"
+					item: "aquaculture:red_shrooma"
+				}
+				{
+					id: "5EE9A708F9E4DC02"
+					type: "item"
+					item: "aquaculture:brown_shrooma"
+				}
+				{
+					id: "3D0D0F78AED287DB"
+					type: "item"
+					item: "aquaculture:capitaine"
+				}
+				{
+					id: "340E8251C2E4BA40"
+					type: "item"
+					item: "aquaculture:pacific_halibut"
+				}
+				{
+					id: "09F0D6DE8ED15BAA"
+					type: "item"
+					item: "aquaculture:arapaima"
+				}
+				{
+					id: "7C91B9D6EF2EFF33"
+					type: "item"
+					item: "aquaculture:muskellunge"
+				}
+			]
+			rewards: [
+				{
+					id: "10CD9708F5A0C4A5"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 7049021818423122779L
+				}
+				{
+					id: "6EB0F551A79174E7"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 8808494820591225409L
+				}
+				{
+					id: "46BFA014316FFDC4"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 1279979498352596350L
+				}
+			]
+		}
+		{
+			title: "Catch a Quantity of Fish"
+			x: 1.0d
+			y: 1.5d
+			description: ["Sometimes it's more about &ahow many&r rather than &ahow good&r. For this challenge, just fish up &650 fish&r."]
+			dependencies: ["2E6FAEB4552A257B"]
+			id: "63721791FB02A242"
+			tasks: [{
+				id: "6EC8225591F13FE7"
+				type: "stat"
+				stat: "minecraft:fish_caught"
+				value: 50
+			}]
+			rewards: [
+				{
+					id: "15EEDE0B3DF59C2D"
+					type: "item"
+					item: {
+						id: "minecraft:player_head"
+						Count: 1b
+						tag: {
+							display: {
+								Name: "{\"text\":\"Fish Tank\"}"
+							}
+							SkullOwner: {
+								Id: [I;
+									-1582439038
+									-1960686208
+									-1255147329
+									369122056
+								]
+								Properties: {
+									textures: [{
+										Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2E0N2NhYTU2ZjkyMGJmMDNiMTIxNzE4YTVkNzEyZTY1YzQ5YWZkYWNhNWY3ZDJlNTQ5ZGY3Nzc1OTRmMTI2MiJ9fX0="
+									}]
+								}
+							}
+						}
+					}
+				}
+				{
+					id: "26060853CDCFA051"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 2068679807827730220L
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 3.0d
+			description: ["Well you made light work of that. How about &6fishing up another 50&r?"]
+			dependencies: ["63721791FB02A242"]
+			id: "6C3087EF4FF15D35"
+			tasks: [{
+				id: "6278DAB32260069F"
+				type: "stat"
+				stat: "minecraft:fish_caught"
+				value: 100
+			}]
+			rewards: [
+				{
+					id: "409DA62B69030E35"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 5036677739913042344L
+				}
+				{
+					id: "5A7B8B2E2C82ECE2"
+					type: "item"
+					item: {
+						id: "minecraft:player_head"
+						Count: 1b
+						tag: {
+							display: {
+								Name: "{\"text\":\"Porcelain Fish Bowl\"}"
+							}
+							SkullOwner: {
+								Id: [I;
+									90750379
+									1795312278
+									-1528642291
+									1960040870
+								]
+								Properties: {
+									textures: [{
+										Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWI1YmE4YWUwZTI2M2NlNDgzZTY1NjQxNzlmZWE5NzdhMGMwODRlMjIxNTRmZTU1NWU1ZDIzMjFmZGJiN2UwMyJ9fX0="
+									}]
+								}
+							}
+						}
+					}
+				}
+			]
+		}
+	]
+}

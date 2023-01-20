@@ -1,0 +1,16 @@
+{
+	"type": "mysticalchemy:potion_ingredient",
+	"item": "hexerei:belladonna_flowers",
+	"minHeat": 175,
+	"maxHeat": 200,
+	"effects": [
+		{
+			"effect": "minecraft:poison",
+			"strength": 0.5
+		},
+		{
+			"effect": "alexsmobs:poison_resistance",
+			"strength": 0.5
+		}
+	]
+}

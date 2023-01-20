@@ -1,0 +1,16 @@
+{
+	"type": "mysticalchemy:potion_ingredient",
+	"item": "alexsmobs:bone_serpent_tooth",
+	"minHeat": 175,
+	"maxHeat": 200,
+	"effects": [
+		{
+			"effect": "alexsmobs:lava_vision",
+			"strength": 0.5
+		},
+		{
+			"effect": "minecraft:poison",
+			"strength": 0.25
+		}
+	]
+}

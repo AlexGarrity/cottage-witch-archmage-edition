@@ -1,0 +1,16 @@
+{
+	"type": "mysticalchemy:potion_ingredient",
+	"item": "hexerei:mandrake_root",
+	"minHeat": 175,
+	"maxHeat": 200,
+	"effects": [
+		{
+			"effect": "minecraft:regeneration",
+			"strength": 0.5
+		},
+		{
+			"effect": "minecraft:poison",
+			"strength": 0.25
+		}
+	]
+}

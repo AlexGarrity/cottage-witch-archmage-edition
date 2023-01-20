@@ -1,0 +1,258 @@
+{
+	id: "56D771851A51D0C2"
+	group: "2757402A47D6A081"
+	order_index: 1
+	filename: "mystical_world"
+	title: "Mystical World"
+	icon: "mysticalworld:aubergine"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Mystical World Beginnings"
+			x: 0.0d
+			y: 0.0d
+			shape: "rsquare"
+			subtitle: "The world is a mystical place"
+			description: [
+				"You've seen the magic in this world - bizarre creatures, gravity-defying terrain, and more. If you are ready to embrace the mysticism in this world, you must first obtain the &dEncylopediae Mysticum&r. This can be found in your &bAkashic Tome&r, by &6right clicking and choosing the right book&r."
+				"To return your Akashic Tome to its base state, &ahold it and left click&r while &atargeting the air&r."
+				"This tome contains tons of information about this mod, so reference it often!"
+			]
+			dependencies: [
+				"62D52F260E43510E"
+				"6264BF7BFC9A5A87"
+				"7A6A94A17BF310DA"
+				"0AE09CAF4E423817"
+				"6975643219A0C7E0"
+				"28E465F33BDC03E1"
+				"213EC005BDC27632"
+			]
+			size: 2.0d
+			id: "537D216C43D5DA83"
+			tasks: [{
+				id: "17F0D1E172657257"
+				type: "item"
+				item: "mysticalworld:encyclopedia"
+			}]
+			rewards: [{
+				id: "7630B7BE875AB8B7"
+				type: "item"
+				item: "mysticalworld:aubergine_seeds"
+				count: 3
+			}]
+		}
+		{
+			title: "Obtain Sapphire"
+			x: -3.0d
+			y: 0.5d
+			shape: "hexagon"
+			description: ["&bSapphires&r are rare gems which can be forged into armor and tools. These have the special property of being &aSerendipitous&r, which will increase your &dLuck&r and &dFortune&r."]
+			id: "62D52F260E43510E"
+			tasks: [{
+				id: "1D0FFA6819E4FDA2"
+				type: "item"
+				item: "mysticalworld:sapphire"
+			}]
+			rewards: [{
+				id: "469FD323C3153054"
+				type: "item"
+				item: "mysticalworld:sapphire"
+			}]
+		}
+		{
+			title: "Tin"
+			x: -2.0d
+			y: -3.5d
+			shape: "hexagon"
+			description: ["&bTin&r is a material infused with the power of &aExtension&r, which means it will &aincrease your reach&r!"]
+			id: "6975643219A0C7E0"
+			tasks: [
+				{
+					id: "6A00F57872927036"
+					type: "item"
+					item: "mysticalworld:raw_tin"
+				}
+				{
+					id: "40358D23726AB2D8"
+					type: "item"
+					item: "mysticalworld:tin_ingot"
+				}
+			]
+			rewards: [{
+				id: "679E2CBADB8A5B33"
+				type: "item"
+				item: "mysticalworld:tin_ingot"
+				count: 3
+			}]
+		}
+		{
+			x: -3.0d
+			y: -1.5d
+			shape: "hexagon"
+			description: ["&bLead&r armor is heavy and gives the &bWeighty&r effect, which increases your &aKnockback Resistance&r. Normally it would also give you lead poisoning, but this is Minecraft, so you don't have to worry about that."]
+			id: "7A6A94A17BF310DA"
+			tasks: [
+				{
+					id: "78CA5CCACA8E904A"
+					type: "item"
+					item: "mysticalworld:raw_lead"
+				}
+				{
+					id: "4F4BFE2406751266"
+					type: "item"
+					item: "mysticalworld:lead_ingot"
+				}
+			]
+			rewards: [{
+				id: "2A1A100B2CA1823F"
+				type: "item"
+				item: "mysticalworld:lead_ingot"
+				count: 3
+			}]
+		}
+		{
+			x: -3.5d
+			y: -2.5d
+			shape: "hexagon"
+			description: ["&bSilver&r wards against the undead, so when wearing silver armor, you will be &aBlessed&r, which deals damage to any undead which attack you."]
+			id: "0AE09CAF4E423817"
+			tasks: [
+				{
+					id: "5099D00614327E50"
+					type: "item"
+					item: "mysticalworld:raw_silver"
+				}
+				{
+					id: "16679A927EDD5400"
+					type: "item"
+					item: "mysticalworld:silver_ingot"
+				}
+			]
+			rewards: [{
+				id: "7B44DE41533AA860"
+				type: "item"
+				item: "mysticalworld:silver_ingot"
+				count: 3
+			}]
+		}
+		{
+			x: -2.5d
+			y: -2.5d
+			shape: "hexagon"
+			description: ["&bOrichalcum&r is an alloy made of &bTin&r, &bCopper&r, and &bGold&r. When made into armor, it will give you the &bSpeedy&r effect, which, as you could guess, increases your movement speed."]
+			id: "28E465F33BDC03E1"
+			tasks: [
+				{
+					id: "3E19FE830C4155A2"
+					type: "item"
+					item: "mysticalworld:orichalcum_blend"
+				}
+				{
+					id: "7F09DB9052078AF0"
+					type: "item"
+					item: "mysticalworld:orichalcum_ingot"
+				}
+			]
+			rewards: [{
+				id: "3D12FCD6A790D8AE"
+				type: "item"
+				item: "mysticalworld:orichalcum_ingot"
+				count: 3
+			}]
+		}
+		{
+			title: "Obtain an Aubergine"
+			x: -1.0d
+			y: -3.5d
+			shape: "hexagon"
+			description: [
+				"The &bAubergine&r, known to some as the humble eggplant, is a new crop which can be roasted or cooked alongside other delicious and healthy vegetables. It does not have inherently mystical properties."
+				"It is highly recommended not to send unsolicited aubergine pics to strangers on the internet, however."
+			]
+			id: "213EC005BDC27632"
+			tasks: [{
+				id: "039514EFFADAFFE5"
+				type: "item"
+				item: "mysticalworld:aubergine"
+			}]
+			rewards: [{
+				id: "341F29AC2CAC6AC6"
+				type: "item"
+				item: "mysticalworld:stewed_eggplant"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -1.0d
+			shape: "hexagon"
+			description: [
+				"&bSilkworms&r dwell in leaves, and thus their &bcocoons&r sometimes drop from them."
+				"These can be &acrafted into &bSilk String&r, which is used in several armor recipes, and is another alternative to killing spiders."
+			]
+			dependencies: ["537D216C43D5DA83"]
+			id: "28853BCBCA856482"
+			tasks: [{
+				id: "2CBAE8A62AA1533B"
+				type: "item"
+				item: "mysticalworld:silk_cocoon"
+			}]
+			rewards: [{
+				id: "5D982F3FF3612302"
+				type: "item"
+				item: "mysticalworld:silk_cocoon"
+				count: 3
+			}]
+		}
+		{
+			x: 3.5d
+			y: -2.0d
+			shape: "hexagon"
+			description: ["The &bSpindle&r is required for spinning &bSilk Cocoons&r into &bSilk String&r. But I wonder what other uses it has."]
+			dependencies: ["28853BCBCA856482"]
+			id: "72BE62EE70436E27"
+			tasks: [{
+				id: "60B0FCCA3BF1672C"
+				type: "item"
+				item: {
+					id: "mysticalworld:spindle"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "1F043BB725AADD53"
+				type: "item"
+				item: "mysticalworld:silk_thread"
+				count: 3
+			}]
+		}
+		{
+			x: -3.5d
+			y: -0.5d
+			shape: "hexagon"
+			description: ["&bCopper&r can be crafted into an armor which grants the &aHealthy&r bonus, &aincreasing your available hearts&r."]
+			id: "6264BF7BFC9A5A87"
+			tasks: [
+				{
+					id: "7BA1F788A8C2404A"
+					type: "item"
+					item: "minecraft:raw_copper"
+				}
+				{
+					id: "36598B24A2EF0098"
+					type: "item"
+					item: "minecraft:copper_ingot"
+				}
+			]
+			rewards: [{
+				id: "00DB8E85AB268B1B"
+				type: "item"
+				item: "minecraft:copper_ingot"
+				count: 3
+			}]
+		}
+	]
+}

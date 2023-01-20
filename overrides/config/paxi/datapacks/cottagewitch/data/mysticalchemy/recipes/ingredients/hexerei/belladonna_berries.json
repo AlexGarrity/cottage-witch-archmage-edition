@@ -1,0 +1,12 @@
+{
+	"type": "mysticalchemy:potion_ingredient",
+	"item": "hexerei:belladonna_berries",
+	"minHeat": 175,
+	"maxHeat": 200,
+	"effects": [
+		{
+			"effect": "minecraft:poison",
+			"strength": 1
+		}
+	]
+}

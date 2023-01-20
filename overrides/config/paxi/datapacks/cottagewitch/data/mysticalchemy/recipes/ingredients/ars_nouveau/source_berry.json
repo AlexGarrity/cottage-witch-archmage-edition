@@ -1,0 +1,16 @@
+{
+	"type": "mysticalchemy:potion_ingredient",
+	"item": "ars_nouveau:source_berry",
+	"minHeat": 175,
+	"maxHeat": 200,
+	"effects": [
+		{
+			"effect": "ars_nouveau:mana_regen",
+			"strength": 0.5
+		},
+		{
+			"effect": "minecraft:weakness",
+			"strength": 0.25
+		}
+	]
+}

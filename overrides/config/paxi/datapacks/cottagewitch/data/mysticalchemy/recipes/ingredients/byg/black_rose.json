@@ -1,0 +1,14 @@
+{
+	"type": "mysticalchemy:potion_ingredient",
+	"item": "byg:black_rose",
+	"effects": [
+		{
+			"effect": "minecraft:health_boost",
+			"strength": 0.5
+		},
+		{
+			"effect": "minecraft:nausea",
+			"strength": 0.5
+		}
+	]
+}

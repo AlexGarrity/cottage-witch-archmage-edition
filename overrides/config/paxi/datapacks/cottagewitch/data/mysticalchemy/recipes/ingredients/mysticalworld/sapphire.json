@@ -1,0 +1,12 @@
+{
+	"type": "mysticalchemy:potion_ingredient",
+	"item": "mysticalworld:sapphire",
+	"minHeat": 175,
+	"maxHeat": 200,
+	"effects": [
+		{
+			"effect": "mysticalworld:serendipity",
+			"strength": 1
+		}
+	]
+}

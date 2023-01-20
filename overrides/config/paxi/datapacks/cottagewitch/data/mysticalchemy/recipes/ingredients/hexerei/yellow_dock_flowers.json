@@ -1,0 +1,16 @@
+{
+	"type": "mysticalchemy:potion_ingredient",
+	"item": "hexerei:yellow_dock_flowers",
+	"minHeat": 175,
+	"maxHeat": 200,
+	"effects": [
+		{
+			"effect": "minecraft:luck",
+			"strength": 0.25
+		},
+		{
+			"effect": "mysticalworld:serendipity",
+			"strength": 0.25
+		}
+	]
+}

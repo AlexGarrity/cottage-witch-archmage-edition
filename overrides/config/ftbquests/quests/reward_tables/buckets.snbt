@@ -1,0 +1,35 @@
+{
+	id: "11C366927716D57E"
+	order_index: 14
+	title: "Buckets"
+	loot_size: 1
+	rewards: [
+		{ item: "mysticalworld:clam_bucket" }
+		{ item: "crittersandcompanions:sea_bunny_bucket" }
+		{ item: "crittersandcompanions:koi_fish_bucket" }
+		{ item: "crittersandcompanions:dumbo_octopus_bucket" }
+		{ item: "cnb:cindershell_bucket" }
+		{ item: "babyfat:ranchu_bucket" }
+		{ item: "aquaculture:tuna_bucket" }
+		{ item: "aquaculture:red_grouper_bucket" }
+		{ item: "aquaculture:jellyfish_bucket" }
+		{ item: "ambientadditions:shame_faced_crab_bucket" }
+		{ item: "ambientadditions:harlequin_shrimp_bucket" }
+		{ item: "ambientadditions:chocolate_chip_starfish_bucket" }
+		{ item: "ambientadditions:yeti_crab_bucket" }
+		{ item: "ambientadditions:mole_bucket" }
+		{ item: "ambientadditions:longhorn_cowfish_bucket" }
+		{ item: "alexsmobs:small_catfish_bucket" }
+		{ item: "alexsmobs:comb_jelly_bucket" }
+		{ item: "alexsmobs:mimic_octopus_bucket" }
+		{ item: "alexsmobs:frilled_shark_bucket" }
+		{ item: "alexsmobs:platypus_bucket" }
+		{ item: "alexsmobs:blobfish_bucket" }
+		{ item: "alexsmobs:lobster_bucket" }
+		{ item: "minecraft:axolotl_bucket" }
+		{ item: "wildbackport:tadpole_bucket" }
+		{ item: "ambientadditions:leaf_frog_bowl" }
+		{ item: "ambientadditions:pinocchio_anole_pot" }
+		{ item: "alexsmobs:potted_flutter" }
+	]
+}

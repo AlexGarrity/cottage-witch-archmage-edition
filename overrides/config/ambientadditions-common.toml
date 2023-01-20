@@ -1,0 +1,89 @@
+
+["Creature Spawn Weights (higher = more common)"]
+	#Spawn weight of White Fruit Bats
+	#Range: 1 ~ 1000
+	white_fruit_bats_spawn_weight = 30
+	#Spawn weight of Moustached Tamarins
+	#Range: 1 ~ 1000
+	moustached_tamarin_spawn_weight = 30
+	#Spawn weight of Scarlet Honeycreepers
+	#Range: 1 ~ 1000
+	scarlet_honeycreeper_spawn_weight = 35
+	#Spawn weight of Pinocchio Anoles
+	#Range: 1 ~ 1000
+	pinocchio_anole_spawn_weight = 25
+	#Spawn weight of Aye Ayes
+	#Range: 1 ~ 1000
+	aye_aye_spawn_weight = 30
+	#Spawn weight of Siamang Gibbons
+	#Range: 1 ~ 1000
+	siamang_gibbon_spawn_weight = 30
+	#Spawn weight of Ring-Tailed Lemurs
+	#Range: 1 ~ 1000
+	ring_tailed_lemur_weight = 30
+	#Spawn weight of Stag Beetles
+	#Range: 1 ~ 1000
+	stag_beetle_spawn_weight = 40
+	#Spawn weight of Pine Martens
+	#Range: 1 ~ 1000
+	pine_marten_spawn_weight = 30
+	#Spawn weight of Nine Banded Armadillos
+	#Range: 1 ~ 1000
+	nine_banded_armadillo_spawn_weight = 5
+	#Spawn weight of Leaf Frogs
+	#Range: 1 ~ 1000
+	leaf_frog_spawn_weight = 6
+	#Spawn weight of Pink Fairy Armadillos
+	#Range: 1 ~ 1000
+	pink_fairy_armadillo_spawn_weight = 3
+	#Spawn weight of Spider-Tailed Adders
+	#Range: 1 ~ 1000
+	spider_tailed_adder_spawn_weight = 4
+	#Spawn weight of Moles
+	#Range: 1 ~ 1000
+	mole_spawn_weight = 10
+	#Spawn weight of Pembroke Corgis
+	#Range: 1 ~ 1000
+	pembroke_corgi_spawn_weight = 4
+	#Spawn weight of Naked Mole Rats
+	#Range: 1 ~ 1000
+	naked_mole_rat_spawn_weight = 3
+	#Spawn weight of Veiled Chameleons
+	#Range: 1 ~ 1000
+	veiled_chameleon_spawn_weight = 10
+	#Spawn weight of Giant Land Snails
+	#Range: 1 ~ 1000
+	giant_land_snail_spawn_weight = 25
+	#Spawn weight of Rabbit Snails
+	#Range: 1 ~ 1000
+	rabbit_snail_spawn_weight = 2
+	#Spawn weight of Cardigan Corgis
+	#Range: 1 ~ 1000
+	cardigan_corgi_spawn_weight = 4
+	#Spawn weight of Longhorn Cowfish
+	#Range: 1 ~ 1000
+	longhorn_cowfish_spawn_weight = 5
+	#Spawn weight of Napolean Wrasse
+	#Range: 1 ~ 1000
+	napoleon_wrasse_spawn_weight = 4
+	#Spawn weight of Chocolate Chip Starfish
+	#Range: 1 ~ 1000
+	chocolate_chip_starfish_spawn_weight = 5
+	#Spawn weight of Harlequin Shrimp
+	#Range: 1 ~ 1000
+	harlequin_shrimp_spawn_weight = 6
+	#Spawn weight of Shame-Faced Crab
+	#Range: 1 ~ 1000
+	shame_faced_crab_spawn_weight = 3
+	#Spawn weight of Yeti Crabs
+	#Range: 1 ~ 1000
+	yeti_crab_spawn_weight = 6
+
+["Other Spawning"]
+	#Spawn weight of Rubber Ducky Isopods (lower = more common)
+	#Range: 1 ~ 1000
+	rubber_ducky_isopod_spawn_weight = 20
+	#Spawn weight of Cardigan Corgis in Mansions (higher = more common)
+	#Range: 1 ~ 1000
+	cardigan_corgi_in_mansion_spawn_weight = 8
+

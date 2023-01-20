@@ -1,0 +1,571 @@
+{
+	id: "0F5FCDF7AD60349B"
+	group: "346046A71D537172"
+	order_index: 5
+	filename: "miscellaneous"
+	title: "Miscellaneous"
+	icon: "minecraft:bookshelf"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Snail Mail: Obtain an Envelope"
+			x: -4.5d
+			y: -2.5d
+			shape: "hexagon"
+			subtitle: "A way to communicate in multiplayer"
+			description: [
+				"You can send letters and packages to your friends! Simply &6craft a Snailbox&r using a &bNautilus Shell&r and some &bIron&r."
+				"&bEnvelopes&r can be crafted with &bPaper&r and an &bIron Nugget&r, and must be &6placed in the upper right slot&r of the Snailbox."
+			]
+			id: "476D80268DFAFC7A"
+			tasks: [{
+				id: "1632D44988A609CE"
+				type: "item"
+				item: {
+					id: "snailmail:envelope_open"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Size: 28
+							Items: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "04B05AF5AA7B3500"
+				type: "item"
+				item: "minecraft:nautilus_shell"
+			}]
+		}
+		{
+			x: -5.5d
+			y: -1.0d
+			shape: "hexagon"
+			subtitle: "Stamp it out"
+			description: [
+				"Once you've got your &bEnvelope&r in your Snailbox, &6click the button that says \"Open Envelope.\"&r This will allow you to apply the &bStamp&r, and also to stuff your package full of delightful items!"
+				"If you'd like to include text, do so with a &bSigned Book&r."
+				"Once you are ready to send, &6hit escape&r and click the \"Send\" button to &achoose the recipient&r Snailbox."
+				"And yes, you can send mail to yourself."
+			]
+			dependencies: ["476D80268DFAFC7A"]
+			id: "1190E4C3E5281604"
+			tasks: [{
+				id: "4DC9F29A5623BB3A"
+				type: "item"
+				item: "snailmail:stamp"
+			}]
+			rewards: [{
+				id: "40B13665FABB1875"
+				type: "random"
+				table_id: 8808494820591225409L
+			}]
+		}
+		{
+			x: -2.5d
+			y: -2.5d
+			shape: "hexagon"
+			subtitle: "Do you wanna build a...uh...sandcastle?"
+			description: ["The &bSandcastle&r can be placed over &bTurtle Eggs&r in order to protect them from Zombies, without hindering their hatching."]
+			id: "012D4FE416DC8BE7"
+			tasks: [{
+				id: "33B1F2EE602D5EAB"
+				type: "item"
+				item: "ecologics:sandcastle"
+			}]
+			rewards: [{
+				id: "6FA462CBA8F1F1A0"
+				type: "item"
+				item: "minecraft:seagrass"
+				count: 6
+			}]
+		}
+		{
+			x: -2.5d
+			y: -4.5d
+			shape: "hexagon"
+			subtitle: "This book has some serious experience"
+			description: [
+				"The &bXP Tome&r allows you to store your Experience in an item, to prevent it being lost or reduced on death."
+				"It also allows you to &ashare experience with others&r!"
+			]
+			id: "4FA002CF34586849"
+			tasks: [{
+				id: "621AEBB1C84EB838"
+				type: "item"
+				item: {
+					id: "xpbook:xp_tome"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "61FBF6F5B8DEAB11"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			title: "Obtain some Iron Grates"
+			x: -3.5d
+			y: -4.5d
+			shape: "hexagon"
+			subtitle: "Well isn't that just grate"
+			description: ["The &bIron Grate&r works to keep animals inside, as they are afraid to walk over it, although you can lead them across by attaching a &bLead&r to them. &aItems will fall through it&r."]
+			id: "0D7B3090032B6F0E"
+			tasks: [{
+				id: "7B8D8FBF31255D24"
+				type: "item"
+				item: "quark:grate"
+				count: 4L
+			}]
+			rewards: [{
+				id: "33366B032997DB84"
+				type: "item"
+				item: "quark:grate"
+				count: 10
+			}]
+		}
+		{
+			title: "Obtain an Ancient Tome"
+			x: -4.0d
+			y: -3.5d
+			shape: "hexagon"
+			subtitle: "I tome you so"
+			description: ["Found as loot in chests, the &bAncient Tomes&r are books of long-lost knowledge which will allow you to &aadd a level to the specified enchantment&r by combining the Tome with the &bEnchanted Book&r at an &bAnvil&r."]
+			id: "3765768BE87D28DE"
+			tasks: [{
+				id: "647CA26F664F82B7"
+				type: "item"
+				title: "Any #crafttweaker:tomes"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "crafttweaker:tomes"
+					}
+				}
+			}]
+			rewards: [{
+				id: "003A388D44155E77"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: -3.0d
+			y: -3.5d
+			shape: "hexagon"
+			subtitle: "Lots of things can go in bottles."
+			description: [
+				"You can obtain a &bCloud in a Bottle&r by ascending to y-level 126-132 and &6right clicking the air with a glass bottle&r."
+				"You can release the Cloud by right-clicking the bottle in the air. It will shortly disappear. However, if the cloud is &6replaced with another block&r, it returns to the bottle. This allows you to &aplace blocks in midair&r."
+			]
+			id: "24B3EE21C9B6292B"
+			tasks: [{
+				id: "60F3F63E08A8D71B"
+				type: "item"
+				item: "quark:bottled_cloud"
+			}]
+			rewards: [{
+				id: "6AEF085BA270D1C5"
+				type: "loot"
+				table_id: 6941837675484043489L
+			}]
+		}
+		{
+			x: -2.0d
+			y: -3.5d
+			shape: "hexagon"
+			subtitle: "Cindershelly, cindershelly, oh we love our cindershelly"
+			description: [
+				"The &bCinder Furnace&r is a unique item which &aonly functions on the back of a &eCindershell Tortoise&r, which live in the Nether Wastes."
+				"You can befriend and breed them with &bFungus&r - but beware, they have a LOT of young at once."
+				"If you place this &bFurnace&r on top of a &eCindershell&r, it will use the beast's volcanic heat to &asmelt items without fuel&r!"
+			]
+			id: "7B40E7022A67BC86"
+			tasks: [{
+				id: "67131CB5294C5493"
+				type: "item"
+				item: "cnb:cinder_furnace"
+			}]
+			rewards: [{
+				id: "29CA99C54CEF6EDB"
+				type: "loot"
+				table_id: 6941837675484043489L
+			}]
+		}
+		{
+			title: "Can you spin straw into gold?"
+			x: -5.0d
+			y: -3.5d
+			shape: "hexagon"
+			subtitle: "Why, that's simply preposterous"
+			description: [
+				"Once upon a time, a foolish miller bragged that his daughter could spin &bStraw&r into gold. News of this made it all the way up to the King, who had her imprisoned with a Spinning Wheel and many bales of Straw."
+				"There's more to the story, but it's bedtime now. Wouldn't that be fun if it were true?"
+			]
+			id: "659A435446B56E5F"
+			tasks: [{
+				id: "0135E258A7487AD8"
+				type: "item"
+				item: "mysticalworld:gold_dust"
+			}]
+			rewards: [{
+				id: "0748C8F31DD3EC0F"
+				type: "choice"
+				table_id: 2068679807827730220L
+			}]
+		}
+		{
+			title: "Chunk Loading"
+			x: -5.0d
+			y: -5.0d
+			shape: "rsquare"
+			subtitle: "When you're away, your base will play"
+			description: [
+				"If you want your base to stay active even when you're not there, you want &achunk loading&r. In order to do this, craft a &bBasic Chunk Loader&r."
+				"By &6placing down the Chunk Loader&r, you will &aload chunks in a 3x3 area&r. Want to see the chunk boundaries? &6F3+G&r will show the edges of each chunk. Press it again to disable."
+			]
+			size: 2.0d
+			id: "26D8EAD9D892805E"
+			tasks: [{
+				id: "2F646B35705318CA"
+				type: "item"
+				item: "chunkloaders:basic_chunk_loader"
+			}]
+			rewards: [{
+				id: "78700E907D3C9286"
+				type: "item"
+				item: "chunkloaders:basic_chunk_loader"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -5.5d
+			shape: "hexagon"
+			description: ["This &bAdvanced Chunk Loader&r will load chunks in a &alarger 5x5 area&r."]
+			dependencies: ["26D8EAD9D892805E"]
+			id: "6C61BE87539B25B6"
+			tasks: [{
+				id: "17C66EFED857A5F7"
+				type: "item"
+				item: "chunkloaders:advanced_chunk_loader"
+			}]
+			rewards: [{
+				id: "3EBE62570F04ADC7"
+				type: "item"
+				item: "minecraft:ender_pearl"
+				count: 3
+			}]
+		}
+		{
+			x: -3.5d
+			y: -6.5d
+			shape: "hexagon"
+			description: ["The &bSingle Chunk Loader&r does what it says on the tin. &6Craft a Basic chunkloader&r into 9 &bSingle Chunk Loaders&r if you have &asmall, unconnected areas&r which need loading."]
+			dependencies: ["26D8EAD9D892805E"]
+			id: "20F9C02AF5CBE665"
+			tasks: [{
+				id: "518CD1390097C7A9"
+				type: "item"
+				item: "chunkloaders:single_chunk_loader"
+			}]
+			rewards: [{
+				id: "193F56FAD5A4D08C"
+				type: "item"
+				item: "minecraft:ender_pearl"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -5.5d
+			shape: "hexagon"
+			description: ["This &bUltimate Chunk Loader&r will &aload a whopping 7x7 area&r. Be wary of making too many of these, as the amount of loaded chunks can affect your performance."]
+			dependencies: ["6C61BE87539B25B6"]
+			id: "14B701CFF7A90EE4"
+			tasks: [{
+				id: "421DBD39D23C331C"
+				type: "item"
+				item: "chunkloaders:ultimate_chunk_loader"
+			}]
+			rewards: [{
+				id: "72EA87FE8C22A66E"
+				type: "random"
+				table_id: 5161092699925703455L
+			}]
+		}
+		{
+			title: "Extreme Sound Muffler"
+			x: -6.0d
+			y: -6.5d
+			subtitle: "Selective hearing. Literally."
+			description: [
+				"This modpack adds a lot of new sounds. So to help you filter the ones you don't like, it also incl.udes &aSuper Sound Muffler&r."
+				"&6Press F6 to open the menu&r. From here, you can click &aRecent&r to see what you've recently heard. You can play the sound to confirm it's the one you don't like, and then &6mute it!&r."
+			]
+			id: "171D4EACF7B9F4D5"
+			tasks: [{
+				id: "4B25469609B1A60C"
+				type: "checkmark"
+				title: "Extreme Sound Muffler"
+			}]
+		}
+		{
+			title: "Capture Time in a Bottle"
+			x: -6.0d
+			y: -3.5d
+			shape: "hexagon"
+			description: [
+				"Did you know that you can &aspeed up the tick speed of a block&r? This can be used on things like &bCompost&r to make them progress faster."
+				"Craft the &bTime in a Bottle&r and hold it in your inventory to accumulate time. Then, you can &6shift right click&r on certain blocks to apply that time to them."
+			]
+			id: "00BDE15DD24045A6"
+			tasks: [{
+				id: "2B71420D0C290C59"
+				type: "item"
+				item: {
+					id: "tiab:time_in_a_bottle"
+					Count: 1b
+					tag: {
+						storedTime: 3520
+					}
+				}
+			}]
+			rewards: [{
+				id: "4BD6346A90078E9B"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 1739670786502713488L
+			}]
+		}
+		{
+			title: "Transport your Mobs"
+			x: -6.5d
+			y: -4.5d
+			shape: "hexagon"
+			subtitle: "Catch a running cow and put it in your pocket"
+			description: [
+				"The &bBasic Capture Cell&r will allow you to scoop up an animal to easily transport long distances. It even works on &atamed animals&r."
+				"However, it is &aone-time use only&r and will break when you release the animal."
+			]
+			id: "1E6176C9919F1D06"
+			tasks: [{
+				id: "3FA44314840216DB"
+				type: "item"
+				item: {
+					id: "portablemobs:basic_capture_cell"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "11AF24C6D321B7EB"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 7049021818423122779L
+			}]
+		}
+		{
+			x: -7.5d
+			y: -4.5d
+			shape: "hexagon"
+			description: ["Unlike the &bBasic Capture Cell&r, the &bMaster Capture Cell&r can be used multiple times to &acapture and release mobs&r."]
+			dependencies: ["1E6176C9919F1D06"]
+			id: "2681470499B91F3D"
+			tasks: [{
+				id: "66C9F2AE4EB23ABB"
+				type: "item"
+				item: {
+					id: "portablemobs:master_capture_cell"
+					Count: 1b
+					tag: {
+						entity_name: "{\"translate\":\"entity.minecraft.cow\"}"
+						entity_type: "minecraft:cow"
+						has_entity: 0b
+						entity_data: {
+							CanUpdate: 1b
+							DeathTime: 0s
+							OnGround: 1b
+							LeftHanded: 0b
+							AbsorptionAmount: 0.0f
+							Attributes: [
+								{
+									Base: 0.08d
+									Name: "forge:entity_gravity"
+								}
+								{
+									Base: 0.0d
+									Name: "forge:step_height_addition"
+								}
+								{
+									Base: 0.20000000298023224d
+									Name: "minecraft:generic.movement_speed"
+								}
+								{
+									Base: 16.0d
+									Name: "minecraft:generic.follow_range"
+									Modifiers: [{
+										Amount: -0.014713038738491103d
+										Operation: 1
+										UUID: [I;
+											2055826973
+											2000637000
+											-1510003821
+											1975714659
+										]
+										Name: "Random spawn bonus"
+									}]
+								}
+							]
+							Invulnerable: 0b
+							Brain: {
+								memories: { }
+							}
+							ForgeCaps: {
+								"structure_gel:gel_entity": {
+									portal: "structure_gel:empty"
+								}
+								"twilightforest:cap_shield": {
+									permshields: 0
+									tempshields: 0
+								}
+							}
+							Age: 0
+							HandDropChances: [
+								0.085f
+								0.085f
+							]
+							ArmorDropChances: [
+								0.085f
+								0.085f
+								0.085f
+								0.085f
+							]
+							Rotation: [
+								-62.70816f
+								0.0f
+							]
+							HurtByTimestamp: 0
+							ForcedAge: 0
+							CitadelData: { }
+							ArmorItems: [
+								{ }
+								{ }
+								{ }
+								{ }
+							]
+							HandItems: [
+								{ }
+								{ }
+							]
+							Air: 300s
+							UUID: [I;
+								-708452325
+								1208631545
+								-1721676557
+								-186856364
+							]
+							ForgeData: { }
+							FallDistance: 0.0f
+							Fire: -1s
+							Motion: [
+								0.0d
+								-0.0784000015258789d
+								0.0d
+							]
+							Pos: [
+								-73.5d
+								70.0d
+								-124.5d
+							]
+							HurtTime: 0s
+							CanPickUpLoot: 0b
+							Health: 10.0f
+							PersistenceRequired: 0b
+							FallFlying: 0b
+							InLove: 0
+							PortalCooldown: 0
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "1717D61F99BFA93D"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8808494820591225409L
+			}]
+		}
+		{
+			x: -7.0d
+			y: -5.5d
+			shape: "hexagon"
+			description: ["The &bCage&r is similar to the &bCapture Cell&r, in that you can &6right click it on a small mob&r to pick it up and transport it. You can &6right click a block to release&r the mob, or you can &6shift right click&r to place the &bCage&r down and display your new friend in their enclosure!"]
+			dependencies: ["1E6176C9919F1D06"]
+			id: "2AD60B373912C5A4"
+			tasks: [{
+				id: "69932938B19DB961"
+				type: "item"
+				item: "supplementaries:cage"
+			}]
+			rewards: [{
+				id: "0A6CFBB3D1DD0E2C"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6941837675484043489L
+			}]
+		}
+		{
+			x: -7.0d
+			y: -3.5d
+			shape: "octagon"
+			description: [
+				"Did you know you can grind the enchantment off of the &bEnchanted Golden Apple&r?"
+				"That would be utterly ridiculous to do, and yet..."
+			]
+			id: "7DD918D36463CF71"
+			tasks: [{
+				id: "0F62B197A427BB30"
+				type: "advancement"
+				advancement: "supplementaries:story/unenchanter"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "33D0F4658286711D"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 5036677739913042344L
+			}]
+		}
+		{
+			x: -5.5d
+			y: -2.5d
+			shape: "hexagon"
+			description: [
+				"The &bWrench&r is an item which can &arotate blocks&r. Just &6right click the block&r with the &bWrench&r, and it will adjust the position based on where you click it."
+				"Does not work on objects which have the same texture on all sides (such as planks)."
+			]
+			id: "1547891EBE53934F"
+			tasks: [{
+				id: "7AFEDB990D121E9E"
+				type: "item"
+				item: {
+					id: "supplementaries:wrench"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "686A7979CF354907"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 6941837675484043489L
+			}]
+		}
+	]
+}

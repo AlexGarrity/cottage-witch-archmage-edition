@@ -1,0 +1,16 @@
+{
+	"type": "mysticalchemy:potion_ingredient",
+	"item": "alexsmobs:soul_heart",
+	"minHeat": 175,
+	"maxHeat": 200,
+	"effects": [
+		{
+			"effect": "alexsmobs:soulsteal",
+			"strength": 0.5
+		},
+		{
+			"effect": "minecraft:slowness",
+			"strength": 0.5
+		}
+	]
+}
