@@ -10,9 +10,9 @@
   },
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
-  "name": "Cottage-Witch",
-  "version": "1.8.2fix",
-  "author": "MehVahdJukaar",
+  "name": "Cottage-Witch-Archmage-Edition",
+  "version": "0.1.0",
+  "author": "AlmostCthulhu",
   "files": [
     {
       "projectID": 412742,
@@ -1221,7 +1221,7 @@
     },
     {
       "projectID": 813583,
-      "filedID": 4354351,
+      "fileID": 4354351,
       "required": true
     }
   ],
