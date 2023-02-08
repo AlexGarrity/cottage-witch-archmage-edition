@@ -3,7 +3,7 @@
     "version": "1.18.2",
     "modLoaders": [
       {
-        "id": "forge-40.1.85",
+        "id": "forge-40.2.1",
         "primary": true
       }
     ]
@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Cottage-Witch-Archmage-Edition",
-  "version": "0.1.0",
+  "version": "0.1.3",
   "author": "AlmostCthulhu",
   "files": [
     {
@@ -237,11 +237,6 @@
     {
       "projectID": 412082,
       "fileID": 4065749,
-      "required": true
-    },
-    {
-      "projectID": 503922,
-      "fileID": 4025588,
       "required": true
     },
     {
