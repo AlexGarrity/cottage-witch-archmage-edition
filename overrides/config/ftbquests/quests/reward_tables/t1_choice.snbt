@@ -19,12 +19,5 @@
 		{ item: "alexsdelight:bison_burger" }
 		{ item: "ars_nouveau:source_berry", count: 5 }
 		{ item: "brewinandchewin:kombucha" }
-		{
-			item: {
-				id: "portablemobs:basic_capture_cell"
-				Count: 1b
-				tag: { }
-			}
-		}
 	]
 }

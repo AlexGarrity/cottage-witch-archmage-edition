@@ -645,11 +645,6 @@ craftingTable.addShaped("conduit_alt", <item:minecraft:conduit>, [
 
 craftingTable.addShapeless("waterlettuce", <item:babyfat:water_lettuce> * 2, [<item:farmersdelight:cabbage>, <item:farmersdelight:rice_panicle>]);
 
-// Mob Catchers
-
-<item:portablemobs:basic_capture_cell>.addTooltip("Catch mobs! One-time use.");
-<item:portablemobs:master_capture_cell>.addTooltip("Catch mobs! Multiple uses.");
-
 
 
 craftingTable.addShapeless("cloverdye", <item:minecraft:green_dye>, [<item:verdure:clover>]);

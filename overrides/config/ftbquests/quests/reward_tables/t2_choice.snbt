@@ -22,13 +22,6 @@
 				}
 			}
 		}
-		{
-			item: {
-				id: "portablemobs:master_capture_cell"
-				Count: 1b
-				tag: { }
-			}
-		}
 		{ item: "alexsmobs:cachalot_whale_tooth" }
 		{ item: "wildbackport:echo_shard", count: 5 }
 	]
