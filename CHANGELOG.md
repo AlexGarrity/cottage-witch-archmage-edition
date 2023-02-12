@@ -12,7 +12,7 @@
 ## Config
 \- Remove default options.txt file
 \- Remove update check from Xaero's Worldmap
-\- Remove host a server button on title screen
+= Replace the "host a server" button on title screen with "report an issue"
 = Change icon on title screen
 = Change default server to official server
 

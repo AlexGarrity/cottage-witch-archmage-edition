@@ -190,8 +190,8 @@ customization {
   actionid = e72a7d3d-52ed-4ceb-a3fb-ca2c40efcb2a1670271052490
   action = addbutton
   y = 221
-  label = Modpack Page
-  value = https://www.curseforge.com/minecraft/modpacks/cottage-witch-archmage-edition/
+  label = Report an Issue
+  value = https://github.com/AlexGarrity/cottage-witch-archmage-edition/issues
   height = 20
 }
 
