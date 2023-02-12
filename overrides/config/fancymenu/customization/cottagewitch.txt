@@ -190,13 +190,13 @@ customization {
   actionid = e72a7d3d-52ed-4ceb-a3fb-ca2c40efcb2a1670271052490
   action = addbutton
   y = 221
-  label = Host a Server
-  value = https://www.akliz.net/cottagewitch
+  label = Modpack Page
+  value = https://www.curseforge.com/minecraft/modpacks/cottage-witch-archmage-edition/
   height = 20
 }
 
 customization {
-  path = resourcepacks/cottagewitchicontransparent.png
+  path = resourcepacks/cottagewitcharchmageicontransparent.png
   orientation = top-centered
   x = -75
   width = 150
