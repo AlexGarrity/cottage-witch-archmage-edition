@@ -1,5 +1,13 @@
 # Changelog
 
+## v0.1.5
+*Based on Cottage Witch 1.8.2fix.  Alpha version*
+
+## Mods
+&#10133; Add Create Ore Excavation @ 1.18.2-1.0.0  
+&rArr; Update Dynamic Economy to 1.18.2-0.1.2
+
+
 ## v0.1.4
 *Based on Cottage Witch 1.8.2fix. Alpha version*
 
