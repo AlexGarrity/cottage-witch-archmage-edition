@@ -5,7 +5,7 @@
 
 ## Mods
 &#10133; Add Create Ore Excavation @ 1.18.2-1.0.0  
-&rArr; Update Dynamic Economy to 1.18.2-0.1.2
+&rArr; Update Dynamic Economy to 1.18.2-0.1.4
 &#10134; Remove Custom Villager Trades
 
 
